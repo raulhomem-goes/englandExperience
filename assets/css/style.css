@@ -1,5 +1,48 @@
-.the-seasons {
-    font-family: "the-seasons", serif !important;
+body {
+    background: #000;
+}
+
+.font-the-seasons {
+    font-family: "the-seasons", serif;
+}
+
+.font-anton {
+    font-family: "anton", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.font-impact {
+    font-family: "impact", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero {
+    position: relative;
+    min-height: 55svh;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        min-height: 100svh;
+        /* tela cheia no desktop */
+    }
+}
+
+.hero-titulo {
+    font-size: clamp(3.5rem, 14vw, 10rem);
+    line-height: 1;
+    padding: clamp(1rem, 4vw, 2.5rem);
+    margin: clamp(3rem, 8vw, 5rem) 0 0 clamp(0rem, 3vw, 2.5rem);
+}
+
+.texto-onda {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    pointer-events: none;
 }
