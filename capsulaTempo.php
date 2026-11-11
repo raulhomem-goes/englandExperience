@@ -58,7 +58,7 @@
             <img src="./assets/img/nuvem1.png" alt="" class="w-130 h-100 self-start ml-6 md:ml-14">
             <img src="./assets/img/capsulaTempo/cdt8.png" alt="" class="w-100 self-end mr-2 md:mr-8">
         </div>
-        <div class="flex flex-col items-center gap-6">
+        <div class="flex flex-col items-center gap-6"> 
             <img src="./assets/img/capsulaTempo/cdt3.png" alt="" class="w-100 self-end mr-2 md:mr-8">
             <img src="./assets/img/nuvem1.png" alt="" class="w-130 h-100 self-start ml-4 md:ml-10">
             <img src="./assets/img/capsulaTempo/cdt4.png" alt="" class="w-100 self-center">
