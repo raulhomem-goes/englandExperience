@@ -62,6 +62,9 @@
                         p-4 md:p-10 mt-8 md:mt-20 md:ml-10 emptyText">
             SURFE
         </h1>
+                <h1 class="font-impact text-white text-left leading-[0.9] md:leading-none text-[7rem] md:text-[10rem] p-4 md:p-10 md:ml-10 -mt-16">
+            na inglaterra
+        </h1>
 </body>
 
 </html>
