@@ -168,6 +168,9 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <a href="./includes/login.php" class="text-white">Entrar</a>
+        </footer>
     </main>
     <script>
         const frase = "Mais que um país. Uma experiência inteira. Onde se encontra a cultura.";

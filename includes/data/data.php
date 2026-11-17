@@ -3,6 +3,17 @@
 $imagemPrincipal= [];
 $pontosTuristicos = [];
 
+$sql = $conexao->prepare("SELECT * FROM imagensenviadas");
+$sql->execute();
+$i = 0;
+foreach ($sql as $row) {
+    $imagens[$i] = [
+        "id" => $row['id'],
+        "nome" => $row['nome'],
+    ];
+    $i++;
+}
+
 $sql = $conexao->prepare("SELECT * FROM pontosTuristicos");
 $sql->execute();
 $i = 0;
